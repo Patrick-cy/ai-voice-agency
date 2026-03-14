@@ -1,0 +1,6 @@
+{
+  // Load environment variables from the workspace .env file into the integrated terminal when using the Python extension
+  "python.terminal.useEnvFile": true,
+  // Ensure the Python extension looks at the workspace .env file by default
+  "python.envFile": "${workspaceFolder}/.env"
+}
